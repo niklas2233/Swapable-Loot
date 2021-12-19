@@ -1,0 +1,3 @@
+displayName = Swable Loot
+author = Mr Panda
+version = 0.2
