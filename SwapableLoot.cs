@@ -288,7 +288,48 @@ namespace SwapableLoot
             recipe66.AddIngredient(4982, 1);
             recipe66.AddTile(114);
             recipe66.Register();
+            //Shadow orb
+            Recipe recipe67 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(96, 1);    //Creates Musket using Shadow Orb
+            recipe67.AddIngredient(115, 1);
+            recipe67.AddTile(114);
+            recipe67.Register();
+            Recipe recipe68 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(115, 1);    //Creates Shadow Orb using Vilehorn
+            recipe68.AddIngredient(64, 1);
+            recipe68.AddTile(114);
+            recipe68.Register();
+            Recipe recipe69 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(64, 1);    //Creates Vilehorn using Ball O' Hurt
+            recipe69.AddIngredient(162, 1);
+            recipe69.AddTile(114);
+            recipe69.Register();
+            Recipe recipe70 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(162, 1);    //Creates Ball O' Hurt using Band of Starpower
+            recipe70.AddIngredient(111);
+            recipe70.AddTile(114);
+            recipe70.Register();
+            Recipe recipe71 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(111, 1);    //Creates Band of Starpower using Musket
+            recipe71.AddIngredient(96, 1);
+            recipe71.AddTile(114);
+            recipe71.Register();
+            //Crimson Heart
+            Recipe recipe72 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(800, 1);    //Creates The Undertaker using Crimson Heart
+            recipe72.AddIngredient(3062, 1);
+            recipe72.AddTile(114);
+            recipe72.Register();
+            Recipe recipe73 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(3062, 1);    //Creates Crimson Heart using Panic Necklace
+            recipe73.AddIngredient(1290, 1);
+            recipe73.AddTile(114);
+            recipe73.Register();
+            Recipe recipe74 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(1290, 1);    //Creates Panic Necklace using Crimson Rod
+            recipe74.AddIngredient(1256, 1);
+            recipe74.AddTile(114);
+            recipe74.Register();
+            Recipe recipe75 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(1256, 1);    //Creates Crimson Rod using The Rotted Fork
+            recipe75.AddIngredient(802, 1);
+            recipe75.AddTile(114);
+            recipe75.Register();
+            Recipe recipe76 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(802, 1);    //Creates The Rotted Fork using The Undertaker
+            recipe76.AddIngredient(800, 1);
+            recipe76.AddTile(114);
+            recipe76.Register();
 		}
 	}
 }
-

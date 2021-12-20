@@ -1,2 +1,4 @@
 Built for 1.4 Alpha version of tModLoader.
 Swapable Loot makes you able to swap out diffrent loot drops from the boss treasure bag
+
+Tinkerer's Workshop is needed to be able to craft
