@@ -330,6 +330,31 @@ namespace SwapableLoot
             recipe76.AddIngredient(800, 1);
             recipe76.AddTile(114);
             recipe76.Register();
+            //Martian Saucer
+            Recipe recipe77 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(2797, 1);   //Creates Xenopopper using Xeno Staff
+            recipe77.AddIngredient(2749, 1);
+            recipe77.AddTile(114);
+            recipe77.Register();
+            Recipe recipe78 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(2749, 1);   //Creates Xeno Staff using Laser Machinegun
+            recipe78.AddIngredient(2795, 1);
+            recipe78.AddTile(114);
+            recipe78.Register();
+            Recipe recipe79 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(2749, 1);   //Creates Laser Machinegun using Electrosphere Launcher
+            recipe79.AddIngredient(2796, 1);
+            recipe79.AddTile(114);
+            recipe79.Register();
+            Recipe recipe80 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(2796, 1);   //Creates Electrosphere Launcher using Influx Waver
+            recipe80.AddIngredient(2880, 1);
+            recipe80.AddTile(114);
+            recipe80.Register();
+            Recipe recipe81 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(2880, 1);   //Creates Influx Waver using Cosmic Car Key
+            recipe81.AddIngredient(2769, 1);
+            recipe81.AddTile(114);
+            recipe81.Register();
+            Recipe recipe82 = ModContent.GetInstance<SwapableLoot.SwapableLoot1>().CreateRecipe(2769, 1);   //Creates Cosmic Car Key using Xenopopper
+            recipe82.AddIngredient(2797, 1);
+            recipe82.AddTile(114);
+            recipe82.Register();
 		}
 	}
 }

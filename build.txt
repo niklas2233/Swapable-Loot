@@ -1,4 +1,4 @@
-displayName = Swable Loot
+displayName = Swapable Loot
 author = Mr Panda
-version = 0.2.2
+version = 0.2.3
 homepage = https://github.com/niklas2233/Swapable-Loot
